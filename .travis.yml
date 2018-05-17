@@ -6,6 +6,7 @@ go:
 
 install:
   - go get github.com/golang/dep/cmd/dep
+  - go checkout master
   - dep init -v
 
 script:
