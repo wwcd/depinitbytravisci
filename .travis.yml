@@ -16,5 +16,5 @@ after_script:
   - git config user.email "shoulinwang@gmail.com"
   - git add Gopkg.* vendor
   - git commit -m "Update vendor"
-  - git push --force https://${GH_TOKEN}@github.com/wwcd/depinitbytravisci" master:master
+  - git push --force "https://${GH_TOKEN}@github.com/wwcd/depinitbytravisci" master:master
 
